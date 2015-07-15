@@ -1,0 +1,61 @@
+
+    <ion-side-menus>
+  <ion-pane ion-side-menu-content>
+    <ion-nav-bar class="bar-positive nav-title-slide-ios7">
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent" animation="slide-left-right"></ion-nav-view>
+  </ion-pane>
+  <ion-side-menu side="left">
+    <header class="bar bar-header bar-positive">
+      <h1 class="title">Menu</h1>
+    </header>
+    <ion-content class="has-header">
+
+      <ion-list>
+  <img src="img/menu_bg0.png">
+        <ion-item nav-clear menu-close ui-sref="app.comment">
+          <i class="ion-ios-chatbubble-outline"></i>
+          Comment
+        </ion-item>
+        <ion-item nav-clear menu-close ui-sref="app.dashboard">
+          <i class="icon ion-home"></i>
+          Home
+        </ion-item>
+        <ion-item nav-clear menu-close ui-sref="change-password">
+          Change Password
+        </ion-item>
+        <ion-item nav-clear menu-close ng-click="logout()">
+          <i class="icon ion-log-out"></i>
+          Logout
+        </ion-item>
+        <ion-item nav-clear menu-close ui-sref="app.map">
+          <i class="icon ion-map"></i>
+          Map
+        </ion-item>
+        <ion-item nav-clear menu-close ui-sref="app.search">
+          <i class="icon ion-search"></i>
+          Search
+        </ion-item>
+        <ion-item nav-clear menu-close ui-sref="app.template/searchs">
+          <i class="icon ion-search"></i>
+          Search Promo
+        </ion-item>
+
+        <ion-item nav-clear menu-close ui-sref="app.browse">
+          <i class="icon ion-ios-browsers-outline"></i>
+          Browse Product
+        </ion-item>
+        <ion-item nav-clear menu-close ui-sref="app.playlist">
+          <i class="icon ion-ios-browsers-outline"></i>
+          Playlist
+        </ion-item>
+        <ion-item nav-clear menu-close ui-sref="app.listing">
+          <i class="icon ion-ios-browsers-outline"></i>
+          Listing
+        </ion-item>
+      </ion-list>
+
+
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html  ng-app="MyApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>chronoshopper</title>
+
+    <link href="myapp.css" rel="stylesheet">
+      <link href="search/search.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+      <link href="dashboard/mycss.css" rel="stylesheet">
+        <link href="dashboard/reset.css" rel="stylesheet">
+          <link href="comment/commentdetail.css" rel="stylesheet">
+          <link href="sidemenu/backg.css" rel="stylesheet">
+    <!--      Map CSS start here -->
+    <link href="//code.ionicframework.com/nightly/css/ionic.css" rel="stylesheet">
+
+    <!-- Map CSS ends here -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="lib/firebase/firebase.js"></script>
+    <script src="lib/firebase/angularfire.min.js"></script>
+    <script src="lib/firebase/firebase-simple-login.js"></script>
+    <!-- Map start here  script  -->
+
+    <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyB16sGmIekuGIvYOfNoW9T44377IU2d2Es&sensor=true"></script>
+    <!-- Map ends here script -->
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <script src="app.js"></script>
+    <script src="search/services.js"></script>
+    <script src="map/app.js"></script>
+    <script src="auth/auth-service.js"></script>
+    <script src="user/user-service.js"></script>
+    <script src="signup/signup-service.js"></script>
+    <script src="sidemenu/sidemenu-controller.js"></script>
+    <script src="signup/signup-controller.js"></script>
+    <script src="login/login-controller.js"></script>
+    <script src="reset-password/reset-password-controller.js"></script>
+    <script src="change-password/change-password-controller.js"></script>
+    <script src="dashboard/dashboard-controller.js"></script>
+    <script src="comment/commentdetail.js"></script>
+
+  </head>
+
+  <body>
+    <ion-nav-view>
+    
+    </ion-nav-view>
+    <script src="listing/listing.js"></script>
+  </body>
+</html>
